@@ -1,14 +1,14 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project you'll use the HTML ```<div>``` tag to create the panels of a comic! 
 
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+Th
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+<div>
+  <iframe src="https://trinket.io/embed/html/780d3e38c5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 --- /no-print ---
 
@@ -26,13 +26,13 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ This project can be completed in a web browser using [trinket.io](https://trinket.io/) or [repl.it](https://replit.com/)
++ You can also use an offline code editor like [Visual Studio Code](https://code.visualstudio.com/Download) (or even just notepad!)
+
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
++ Download the project [starter file](http://rpf.io/p/en/webcomic-go){:target="_blank"} if working offline
 
 --- /collapse ---
 
@@ -41,9 +41,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ HTML is used to structure websites and CSS is used to style them.
++ HTML uses tags to construct websites, one of the most used tags is ```<div>```
++ ```<div>``` is used to create sections of the page which can be styled independently of one another with CSS
 
 --- /collapse ---
 
@@ -52,7 +52,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/webcomic-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
 
