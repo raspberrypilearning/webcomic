@@ -1,12 +1,12 @@
 ## Step title
 
-Add an introductory sentence. What will learners achieve by the end of this step?
+In this step, we're going to look at how the ```<div>``` tag works and what it does in a webpage.
 
 --- task ---
 
-If working **online**, open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
+If working **online**, open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Trinket, or your preferred editor.
  
-If working **offline**, open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+If working **offline**, open the project [starter file](http://rpf.io/p/en/webcomic-get){:target="_blank"} in your offline editor. If you need to download and install VS Code, you can find it [here](https://code.visualstudio.com/Download){:target="_blank"}.
 
 You should see...
  
