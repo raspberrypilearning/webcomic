@@ -48,14 +48,15 @@ Open the index.html file and scroll down to line 28. Under the comment, you shou
 
 This second division is called **child** (but you could call it anything you like - we are just using 'parent' and 'child' in this example) and as you can see, it sits **inside** the parent division, but is styled quite differently.
 
-Change the formatting of the **parent** and **child** divisions now. Can you change the code in the HTML and the CSS so they are styled differently?
+Change the formatting of the **parent** and **child** divisions now. Can you change the code in the HTML and the CSS so the two **child** divisions are styled differently?
 
 --- collapse ---
 ---
 title: I need a hint!
 ---
-In the HTML: Change Child Div 2 - inside the second nested ```<div>``` tag, change the class to something else (like **child2**).
-In the CSS: Add a new declaration that starts with the name of your new class (like **.child2**) and contains different formatting rules. 
+**In the HTML:** Change Child Div 2 - inside the second nested ```<div>``` tag (line 42), change the class to something else (like **child2**).
+**In the CSS:** Add a new declaration that starts with the name of your new class as it's selector (must be the same as the class used in the HTML - **.child2** in this example) and contains different formatting rules. (Or... copy-paste the **.child** declarations and change the selector and values!)
+
 --- /collapse ---
 
 --- /task ---
