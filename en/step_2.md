@@ -60,22 +60,19 @@ Can you change the code in the HTML and the CSS so the two different **child** d
 ---
 title: I need a hint!
 ---
-**In the HTML:** Change Child Div 2 - inside the second nested ```<div>``` tag (line 42), change the class to something else (like **child2**).
-**In the CSS:** Add a new declaration that starts with the name of your new class as it's selector (must be the same as the class used in the HTML - **.child2** in this example) and contains different formatting rules. (Or... copy-paste the **.child** declarations and change the selector and values!)
+**In the HTML:** Inside the second nested ```<div>``` tag (line 42), change the class to something else (like ```class=child2```).
+**In the CSS:** Add a new declaration that starts with the name of your new class as it's selector (must be the same as the class used in the HTML - ```.child2``` in this example) and contains different formatting rules. (Or... copy-paste the existing ```.child``` declarations and change the selector and values!)
 
 --- /collapse ---
 
 --- /task ---
 
 --- task ---
+Edit the HTML and CSS files until they look awesome and you are ready to move on. 
 
+Can you add a whole new ```<div>``` at the bottom of the page and style it uniquely?
 --- /task ---
 
---- task ---
+In the next step, we will make a 4-panel comic!
 
---- /task ---
-
---- task ---
-
---- /task ---
 --- save ---
