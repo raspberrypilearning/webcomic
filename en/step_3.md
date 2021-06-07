@@ -3,3 +3,27 @@
 In the last step, we got to grips with ```<div>```s and how they can break a website into sections. 
 
 In this step, you're going to change the content of a series of divisions to create a webcomic with captions. 
+
+--- task ---
+Open the ```comic.html``` file to see the starter page.
+--- /task ---
+
+You'll notice it still has all the header information included in every other HTML document, and the stylesheet refers to ```style.css```. This is the **same stylesheet** used on the webpage in the previous step. 
+
+CSS is created to do this on purpose. It allows you to style sites once in CSS and replicate that quickly using the classes you have defined across all your HTML pages. Handy!
+
+--- task ---
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
