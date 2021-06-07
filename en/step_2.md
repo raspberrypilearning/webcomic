@@ -44,11 +44,17 @@ Remember: You can switch back to ```index.html``` any time to see the changes yo
 We can also put ```<div>```s inside other ```<div>```s! Kind of like putting a box **inside** another box, and we can style both however we like! You can put **any** sort of content inside nested divisions. Let's have a look at how this works now.
 
 --- task ---
-Open the index.html file and scroll down to line 28. Under the comment, you should see a tag that opens a division called **parent**. Inside this division there is a level 1 heading, some paragraph text and **another division**. 
+Open the index.html file and scroll down to line 28. Under the comment, you should see a tag that opens a division classed **parent**. Inside this division there is a level 1 heading, some paragraph text and **another two divisions**. 
+--- /task ---
 
-This second division is called **child** (but you could call it anything you like - we are just using 'parent' and 'child' in this example) and as you can see, it sits **inside** the parent division, but is styled quite differently.
+The first division **nested** inside the parent division is called **child** and starts on line 32. You could call it anything you like - we are just using 'parent' and 'child' in this example. As you can see, it sits **inside** the parent division, but is styled quite differently.
 
-Change the formatting of the **parent** and **child** divisions now. Can you change the code in the HTML and the CSS so the two **child** divisions are styled differently?
+The second nested division starts on line 42 and is also classed **child**. This means that while the content inside this division can be different, the **styling** will match the division above, and **any other division in your HTML where ```class=child```.** 
+
+--- task ---
+Change the formatting of the **parent** and **child** divisions now. 
+
+Can you change the code in the HTML and the CSS so the two different **child** divisions are styled differently?
 
 --- collapse ---
 ---
