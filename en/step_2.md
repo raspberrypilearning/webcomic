@@ -24,15 +24,51 @@ Have a look at the code in the first tab, ```index.html```. You'll see that the 
 Inside the body of the website, you should first see the ```<h1>``` tag that contains the heading (feel free to change this to anything you like!), followed by a tag which says ```<div class=div1>```. This tag creates the division in your webpage, which we have given the class **div1**. The division ends at the ```</div>``` tag, and everything between these two tags can be styled using the ```style.css``` stylesheet.
 --- /task ---
 
+All of the ```<div>```s we create can be independently styled by creating rules for them in our stylesheet.  Let's have a look at some existing rules first, to see how they apply to our divisions.
+
 --- task ---
 Open the style.css file now. You should see the same sort of code in the stylesheet here as that in the last project, including declarations for tags like ```<p>```, ```<body>``` and all the heading tags. 
 
 --- /task ---
 
+You can name your divisions when you create them by adding the ```class=name``` into the tag. Whatever you set as the name for your division should be added to your stylesheet with a dot at the front like this:
+
+```.name { }```
+
 --- task ---
 Scroll down to line 45 in style.css, to where the styling for the ```<div>``` tags begins. You will see some comments in the file, explaining that you can style each div in your index.html file using these declarations. Change the information included in the .div1 and .div2 rules now - you can use colour names from [here](https://www.w3schools.com/cssref/css_colors.asp) if you need some reminders!
 
-You can switch back to ```index.html``` any time to see the changes you've made!
+Remember: You can switch back to ```index.html``` any time to see the changes you've made!
 --- /task ---
 
+We can also put ```<div>```s inside other ```<div>```s! Kind of like putting a box **inside** another box, and we can style both however we like! You can put **any** sort of content inside nested divisions. Let's have a look at how this works now.
+
+--- task ---
+Open the index.html file and scroll down to line 28. Under the comment, you should see a tag that opens a division called **parent**. Inside this division there is a level 1 heading, some paragraph text and **another division**. 
+
+This second division is called **child** (but you could call it anything you like - we are just using 'parent' and 'child' in this example) and as you can see, it sits **inside** the parent division, but is styled quite differently.
+
+Change the formatting of the **parent** and **child** divisions now. Can you change the code in the HTML and the CSS so they are styled differently?
+
+--- collapse ---
+---
+title: I need a hint!
+---
+In the HTML: Change Child Div 2 - inside the second nested ```<div>``` tag, change the class to something else (like **child2**).
+In the CSS: Add a new declaration that starts with the name of your new class (like **.child2**) and contains different formatting rules. 
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
+
+--- task ---
+
+--- /task ---
 --- save ---
