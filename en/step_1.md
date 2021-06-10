@@ -11,7 +11,7 @@ In this project you'll use the HTML ```<div>``` tag to create the panels of a co
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/starter_project.png)
 --- /print-only ---
 
 --- collapse ---
