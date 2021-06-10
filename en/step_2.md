@@ -1,6 +1,6 @@
 ## What is a <div>?
 
-In this step, we're going to look at how the ```<div>``` tag works and what it does in a webpage. You will be able to change the information contained in the different divisions of the webpage.
+In this step, we're going to look at how the ```<div>``` tag works and how it creates separate ****divisions** in a webpage. You will be able to change the information contained in the different divisions of the webpage and style them to look cool!
 
 --- task ---
 
@@ -21,7 +21,9 @@ The ```<div>``` tag is used to create a division or section in an HTML document.
 --- task ---
 Have a look at the code in the first tab, ```index.html```. You'll see that the usual header information is included in the ```<head>``` tag. 
 
-Inside the body of the website, you should first see the ```<h1>``` tag that contains the heading (feel free to change this to anything you like!), followed by a tag which says ```<div class=div1>```. This tag creates the division in your webpage, which we have given the class **div1**. The division ends at the ```</div>``` tag, and everything between these two tags can be styled using the ```style.css``` stylesheet.
+Inside the body of the website, you should first see the ```<h1>``` tag that contains the heading (feel free to change this to anything you like!), followed by a tag which says ```<div class=div1>```. 
+
+This tag creates the division in your webpage, which we have assigned the class **div1**. The division ends at the ```</div>``` tag, and everything between these two tags can be styled using the ```style.css``` stylesheet.
 --- /task ---
 
 All of the ```<div>```s we create can be independently styled by creating rules for them in our stylesheet.  Let's have a look at some existing rules first, to see how they apply to our divisions.
