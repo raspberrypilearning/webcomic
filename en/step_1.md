@@ -5,8 +5,6 @@ In this project you'll use the HTML ```<div>``` tag to create the panels of a co
 ### What you will make
 
 --- no-print ---
-Th
-
 <div>
   <iframe src="https://trinket.io/embed/html/780d3e38c5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
