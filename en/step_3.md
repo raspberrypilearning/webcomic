@@ -15,9 +15,8 @@ CSS is created to do this on purpose. It allows you to style sites once in CSS a
 --- task ---
 Take a look at the code for our ```comic.html``` web page. You'll see that inside the ```<body>``` tags there are **five** divisions -  a ```title``` division and four ```panel``` divisions.
 
-You're going to change the information in these panels by changing the ```<img>``` tag to the image you would like to use, and ch
+You're going to change the information in these panels by changing the ```<img>``` tag to the image you would like to use, and changing the text to caption the picture.
 --- /task ---
-
 
 --- task ---
 
