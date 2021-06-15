@@ -76,19 +76,29 @@ Go through the rest of your panels and add the correct images to the code in the
 Now we have our panels in the right order, we can add our captions in the boxes beneath, to help our readers make sense of what's going on in the comic.
   
 --- task ---
+In your ```comic.html``` file, scroll down to line 25. This is the line which contains the reference for the text underneath the first panel:
+```html
+<h3>You can change the text in these divs to caption your panels!</h3>
+```
+On this line, simply change the text between the ```<h3>``` tags to a caption that explains or supports your first panel image. 
 
+Do this now and watch the caption text change!
 --- /task ---
 
 --- task ---
-
+Go through the other three panels of your comic and add captions to the images.
 --- /task ---
+
+The last thing we want to do is give our new comic a title. Let's do that now.
 
 --- task ---
+In your ```comic.html``` file, scroll down to line 16. This is the line which contains the reference for the text underneath the first panel:
+```html
+<h1> Put your Title in the Title Div here!</h1>
+```
+On this line, simply change the text between the ```<h1>``` tags to a funny title for your comic. 
 
+Do this now and watch the title text change!
 --- /task ---
 
---- task ---
-Scroll down to line 16, where the ```< h1>``` tag contains some generic text. 
-
-Change this 
---- /task ---
+--- save ---
