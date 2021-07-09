@@ -1,19 +1,15 @@
-## Make a webcomic with HTML
+## Adding Images
 
 In the last step, we got to grips with ```<div>```s and how they can break a website into sections. 
 
-In this step, you're going to change the content of a series of divisions to create a webcomic with captions. 
+In this step, you're going to change the content of a series of divisions by adding images to them using HTML. 
 
 --- task ---
-Open the ```comic.html``` file to see the starter page.
+Open the ```index.html``` file to see the starter page.
 --- /task ---
 
-You'll notice it still has all the header information included in every other HTML document, and the stylesheet refers to ```style.css```. This is the **same stylesheet** used on the webpage in the previous step. 
-
-CSS is created to do this on purpose. It allows you to style sites once in CSS and replicate that quickly using the classes you have defined across all your HTML pages. Handy!
-
 --- task ---
-Take a look at the code for our ```comic.html``` web page. You'll see that inside the ```<body>``` tags there are **five** divisions -  a ```title``` division and four ```panel``` divisions.
+Look at the code for our ```index.html``` web page. Inside the ```<body>``` tags there are **five** divisions -  a ```title``` division and four ```panel``` divisions.
 
 You're going to change the information in these panels by changing the ```<img>``` tag to the image you would like to use, and changing the text to caption the picture.
 --- /task ---
@@ -24,7 +20,7 @@ First, let's choose the pictures that will go in our comic panels. There are sev
 **If you are using Trinket:** you can click the **Manage Images** icon at the top of your trinket window, which will bring up a list of the images you have available:
 ![Manage Images Icon is at the top right of your code window, highlighted here in red.](images/image_button.png)
 
-This will open the Images list, which will show you the names of all the images you can use in your code.
+This will open the Images list, which will show you the names of all the images you can use in your code. Make a note of the filenames of the images you want to use, including their file extension (the part after the dot!)
 
 ![A list of images and their filenames shown in the Trinket window.](images/image_import.png)
 
@@ -58,11 +54,11 @@ When you have selected or dragged all the images you want to add, click the blue
 --- /task ---
 
 --- task ---
-In your ```comic.html``` file, scroll down to line 24. This is the line which contains the reference for the image in the first panel.
+In your ```index.html``` file, scroll down to line 26. This is the tag which contains the reference for the image in the first panel.
 ```html
 <img src="panel4.png">
 ```
-On this line, simply change the name of the image in the quotation marks to the one you would like as your first panel image. So, if you wanted to have birb1.png as your image, your code would say:
+On this line, simply change the name of the image in the quotation marks to the one you would like as your first panel image. So, if you wanted to have ```birb1.png``` as your image, your code would say:
 ```html
 <img src="birb1.png">
 ```
@@ -70,35 +66,7 @@ Do this now and watch the image in your first panel change!
 --- /task ---
 
 --- task ---
-Go through the rest of your panels and add the correct images to the code in the right places. 
---- /task ---
-
-Now we have our panels in the right order, we can add our captions in the boxes beneath, to help our readers make sense of what's going on in the comic.
-  
---- task ---
-In your ```comic.html``` file, scroll down to line 25. This is the line which contains the reference for the text underneath the first panel:
-```html
-<h3>You can change the text in these divs to caption your panels!</h3>
-```
-On this line, simply change the text between the ```<h3>``` tags to a caption that explains or supports your first panel image. 
-
-Do this now and watch the caption text change!
---- /task ---
-
---- task ---
-Go through the other three panels of your comic and add captions to the images.
---- /task ---
-
-The last thing we want to do is give our new comic a title. Let's do that now.
-
---- task ---
-In your ```comic.html``` file, scroll down to line 16. This is the line which contains the reference for the text underneath the first panel:
-```html
-<h1> Put your Title in the Title Div here!</h1>
-```
-On this line, simply change the text between the ```<h1>``` tags to a funny title for your comic. 
-
-Do this now and watch the title text change!
+Go through the rest of your panels and add the correct images to the code in the right places. Remember to include the file extension in your tag, or it won't work!
 --- /task ---
 
 --- save ---

@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you'll use the HTML ```<div>``` tag to create the panels of a comic! 
+Make your very own webcomic using HTML and CSS
 
 ### What you will make
 

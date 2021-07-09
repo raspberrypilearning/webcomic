@@ -3,7 +3,6 @@
 In this step, we're going to look at how the ```<div>``` tag works and how it creates separate ****divisions** in a webpage. You will be able to change the information contained in the different divisions of the webpage and style them to look cool!
 
 --- task ---
-
 If working **online**, open the [starter project](https://trinket.io/html/780d3e38c5){:target="_blank"} in Trinket, or your preferred editor.
  
 If working **offline**, open the project [starter file](http://rpf.io/p/en/webcomic-get){:target="_blank"} in your offline editor. If you need to download and install VS Code, you can find it [here](https://code.visualstudio.com/Download){:target="_blank"}.
@@ -16,64 +15,54 @@ You should see...
 
 In the previous project, you learned that HTML provides the structure and content of a website using different 'tags'. In this project we are focusing on one specific type of HTML tag: ```<div>```.
 
-The ```<div>``` tag is used to create a division or section in an HTML document. Think of ```<div>``` as creating a container into which you can put other HTML elements and style them together using CSS. Any sort of content can be put inside a ```<div>``` tag.
+The ```<div>``` tag is used to group bits of HTML. Think of ```<div>``` as creating a box with other tags inside it. All the HTML in the ```<div>``` can have the same style.
 
---- task ---
-Have a look at the code in the first tab, ```index.html```. You'll see that the usual header information is included in the ```<head>``` tag. 
 
-Inside the body of the website, fins the tag which says ```<div class="title">```. 
-
-This tag creates the division in your webpage, which we have assigned the class **title**. The division ends at the corresponding ```</div>``` tag, and everything between these two tags can be styled using the ```style.css``` stylesheet.
---- /task ---
-
-All of the ```<div>```s we create can be independently styled by creating rules for them in our stylesheet.  Let's have a look at some existing rules first, to see how they apply to our divisions.
-
---- task ---
-Open the style.css file now. You should see the same sort of code in the stylesheet here as that in the last project. 
-
-Find the CSS declarations for tags like ```<p>```, ```<body>``` and all the numbered heading tags you have seen before.
-
-Also find the declarations created for your comic, called ```.title``` and ```.panel```. These set out the styling rules for our divs assigned these classes.
-
---- /task ---
-
-You can name your divisions when you create them by adding the ```class=name``` into the tag. Whatever you set as the name for your division should be added to your stylesheet with a dot at the front like this:
+You can name divisions when you create them by adding the ```class=name``` into the tag. Whatever you set as the name for your division should be added to your CSS stylesheet with a dot at the front like this:
 
 ```.name { }```
 
 --- task ---
-Scroll down to line 44 in style.css, to where the styling for the ```<div>``` tags begins. You will see some comments in the file, explaining that you can style each div in your index.html file using these declarations. Change the information included in the .div1 and .div2 rules now - you can use colour names from [here](https://www.w3schools.com/cssref/css_colors.asp) if you need some reminders!
+Look at the code in the first tab, ```index.html```. You'll see that the usual header information is included in the ```<head>``` tag. 
 
-Remember: You can switch back to ```index.html``` any time to see the changes you've made!
+Inside the body of the website, **find** the tag which says ```<div class="title">```. 
+
+This tag creates the division in your webpage, which we have assigned the class **title**. The division ends at the corresponding ```</div>``` tag on line 43, and everything between these two tags can be styled using the ```style.css``` stylesheet.
+
 --- /task ---
 
 We can also put ```<div>```s inside other ```<div>```s! Kind of like putting a box **inside** another box, and we can style both however we like! You can put **any** sort of content inside nested divisions. Let's have a look at how this works now.
 
---- task ---
-Open the index.html file and scroll down to line 15. You should see a tag that opens a division classed **title**. Inside this division there is a level 1 heading and **another four divisions**. 
-
-Scroll down to line 43, at the bottom of the code. This is the closing tag for our title ```<div>``` started at the beginning of the code.
---- /task ---
-
-The first division **nested** inside the parent division is called **child** and starts on line 21. You could call it anything you like - we are just using 'title' and 'panel' in this example. As you can see, it sits **inside** the parent division, but is styled quite differently.
+The larger division created to hold others is called the **parent**. The first division **nested** inside the parent division is called **child** (and starts on line 21). You could call it anything you like - we are just using 'title' and 'panel' in this example. As you can see, it sits **inside** the parent division, but is styled quite differently.
 
 The second nested division starts on line 30 and is also classed **panel**. This means that while the content inside this division can be different, the **styling** will match the division above, and **any other division in your HTML where ```class=panel```.**
 
+--- task ---
+Find the other child ```<div>``` tags in your comic - there are four of them!
 
+--- /task ---
+
+All of the divs we create can be independently styled by creating rules for them in our CSS stylesheet.  Let's have a look at some existing rules first, to see how they apply to our divisions. 
 
 --- task ---
-Change the formatting of the **parent** and **child** divisions now. 
+Open the ```style.css``` file now. You should see the same sort of code in the stylesheet here as that in the last project. 
 
-Can you change the code in the HTML and the CSS so the two different **child** divisions are styled differently?
+Find the CSS declarations for tags like ```<p>```, ```<body>``` and all the numbered heading tags you have seen before.
 
---- collapse ---
----
-title: I need a hint!
----
-**In the HTML:** Inside the second nested ```<div>``` tag (line 42), change the class to something else (like ```class=child2```).
-**In the CSS:** Add a new declaration that starts with the name of your new class as it's selector (must be the same as the class used in the HTML - ```.child2``` in this example) and contains different formatting rules. (Or... copy-paste the existing ```.child``` declarations and change the selector and values!)
+--- /task ---
 
---- /collapse ---
+--- task ---
+
+Change the declaration on line 19 to another ```color``` - you can use colour names from [here](https://www.w3schools.com/cssref/css_colors.asp) if you need some reminders! This will style any text inside ```<h1>``` tags on your comic to be this colour.
+
+--- /task ---
+
+--- task ---
+Scroll down to line 44 in style.css, to where the styling for the ```<div>``` tags called ```.title``` and ```.panel``` begins. These set out the styling rules for our divs assigned these classes. 
+
+Change some of the values here, until you are happy with the way your comic looks. 
+
+(Don't change ```float```, ```height``` or ```width``` as they will likely mess up your comic's layout!)
 
 --- /task ---
 
@@ -83,6 +72,6 @@ Edit the HTML and CSS files until they look awesome and you are ready to move on
 Can you add a whole new ```<div>``` at the bottom of the page and style it uniquely?
 --- /task ---
 
-In the next step, we will make a 4-panel comic!
+In the next step, we will add the pictures for your comic panels!
 
 --- save ---
