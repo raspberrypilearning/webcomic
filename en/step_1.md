@@ -6,7 +6,7 @@ Make your very own webcomic using HTML and CSS
 
 --- no-print ---
 <div>
-  <iframe src="https://trinket.io/embed/html/780d3e38c5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  <iframe src="https://trinket.io/embed/html/02478bcf2c?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 --- /no-print ---
 

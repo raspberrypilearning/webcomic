@@ -49,7 +49,7 @@ When you have selected or dragged all the images you want to add, click the blue
 
 --- /collapse ---
 
-**If you are working in an offline editor:** Inside the folder containing the starter project, you should see a list of image files. As long as your images are stored in this folder, you can simply just reference them in your code using their filenames in the next step. Easy!
+**If you are working in an offline editor:** Inside the folder containing the starter project, you should see a list of image files. As long as your images are stored in this folder, you can reference them in your code using their filenames in the next step. Easy!
 
 --- /task ---
 
@@ -58,7 +58,7 @@ In your ```index.html``` file, scroll down to line 26. This is the tag which con
 ```html
 <img src="panel4.png">
 ```
-On this line, simply change the name of the image in the quotation marks to the one you would like as your first panel image. So, if you wanted to have ```birb1.png``` as your image, your code would say:
+On this line, change the name of the image in the quotation marks to the one you would like as your first panel image. So, if you wanted to have ```birb1.png``` as your image, your code would say:
 ```html
 <img src="birb1.png">
 ```
