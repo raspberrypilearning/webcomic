@@ -41,7 +41,7 @@ title: What you will learn
 
 + HTML is used to structure websites and CSS is used to style them.
 + HTML uses tags to construct websites, one of the most used tags is ```<div>```
-+ ```<div>``` is used to create sections of the page which can be styled independently of one another with CSS
++ ```<div>``` tags are used to create sections of the page which can be styled independently of one another with CSS
 
 --- /collapse ---
 
