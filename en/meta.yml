@@ -1,4 +1,4 @@
-title: Make a Webcomic
+title: Make a Webcomic with HTML
 hero_image: images/banner.png
 description: webcomic description
 version: 4
@@ -9,5 +9,8 @@ steps:
   - title: Introduction
   - title: What is a <div>?
   - title: Make a webcomic with HTML
+  - title: Adding images
+  - title: Creating captions
   - title: Reflect
+  - title: Upgrade your project
   - title: What next?
