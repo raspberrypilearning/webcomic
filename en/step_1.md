@@ -11,7 +11,7 @@ Make your very own webcomic using HTML and CSS
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/starter_project.png)
+![Complete project](images/example_birb.png)
 --- /print-only ---
 
 --- collapse ---
