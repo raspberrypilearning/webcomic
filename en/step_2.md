@@ -32,9 +32,8 @@ This tag creates the division in your webpage, which we have assigned the class 
 --- /task ---
 
 We can also put ```<div>```s inside other ```<div>```s! Kind of like putting a box **inside** another box, and we can style both however we like! You can put **any** sort of content inside nested divisions. Let's have a look at how this works now.
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Did you meet the <span style="color: #0faeb0">
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 The larger division created to hold others is called the <span style="color: #0faeb0">parent</span>. The first division <span style="color: #0faeb0">nested</span> inside the parent division is called <span style="color: #0faeb0">child</span> (and starts on line 21). You could call it anything you like - we are just using 'title' and 'panel' in this example. As you can see, it sits <span style="color: #0faeb0">inside</span> the parent division, but is styled quite differently.</p>
 
 The second nested division starts on line 30 and is also classed **panel**. This means that while the content inside this division can be different, the **styling** will match the division above, and **any other division in your HTML where ```class=panel```.**
