@@ -11,7 +11,7 @@ Make your very own webcomic using HTML and CSS
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/starter_project.png)
+![Complete project](images/example_birb.png)
 --- /print-only ---
 
 --- collapse ---
@@ -41,7 +41,7 @@ title: What you will learn
 
 + HTML is used to structure websites and CSS is used to style them.
 + HTML uses tags to construct websites, one of the most used tags is ```<div>```
-+ ```<div>``` is used to create sections of the page which can be styled independently of one another with CSS
++ ```<div>``` tags are used to create sections of the page which can be styled independently of one another with CSS
 
 --- /collapse ---
 
@@ -50,7 +50,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/webcomic-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/webcomic-birb-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/webcomic/print){:target="_blank"}.
 

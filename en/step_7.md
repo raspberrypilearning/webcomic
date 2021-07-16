@@ -4,4 +4,4 @@ If you are following the [Web 1](https://projects.raspberrypi.org/en/raspberrypi
 
 ![ProjectName project](images/projectname-project.png) 
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects/?software[]=html-css-javascript).
+If you want to have more fun exploring HTML and CSS, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects/?software[]=html-css-javascript).
